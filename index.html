@@ -3,41 +3,42 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Angular Hands On Course in Mumbai | Just Academy</title>
-  <meta name="description" content="Join Just Academy's Angular Hands On Course in Mumbai. Learn by doing, get placement assistance, and build real-world web apps with Angular.">
-  <meta name="keywords" content="Angular Course in Mumbai, Angular Training Mumbai, Angular Hands On, Angular Developer Course, Just Academy Angular, Angular Certification, Angular Classes Mumbai, Learn Angular Hands-On">
+  <title>Manual Testing Hands On Course in Mumbai | Just Academy</title>
+  <meta name="description" content="Learn Manual Testing in Mumbai with our Hands On training. Get expert-led sessions, real project experience, and placement support at Just Academy.">
+  <meta name="keywords" content="Manual Testing Course in Mumbai, Manual Testing Hands On, Manual QA Course, Software Testing Course, Just Academy Manual Testing, QA Training Mumbai, Manual Testing Certification">
   <meta name="author" content="Just Academy">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: 'Inter', sans-serif; background: #f8f9fa; color: #222; line-height: 1.6; }
-    header { background: linear-gradient(to right, #f12711, #f5af19); color: white; padding: 2rem 1rem; text-align: center; }
-    header h1 { font-size: 2rem; animation: fadeInDown 1s ease; }
-    header p { margin-top: 0.5rem; font-size: 1rem; animation: fadeInUp 1.2s ease; }
+    body { font-family: 'Inter', sans-serif; background: #f2f2f2; color: #222; }
+    header { background: linear-gradient(to right, #00c6ff, #0072ff); color: #fff; padding: 2.5rem 1rem; text-align: center; }
+    header h1 { font-size: 2.2rem; animation: slideDown 1s ease-out; }
+    header p { margin-top: 0.5rem; font-size: 1.1rem; animation: slideUp 1.2s ease-in; }
+
     nav { margin-top: 1.5rem; }
-    nav a { background: white; color: #f12711; padding: 0.5rem 1rem; border-radius: 8px; text-decoration: none; margin: 0.3rem; display: inline-block; transition: transform 0.3s; }
-    nav a:hover { transform: scale(1.05); background: #fff6e6; }
+    nav a { background: white; color: #0072ff; padding: 0.6rem 1.2rem; border-radius: 8px; text-decoration: none; margin: 0.3rem; display: inline-block; transition: transform 0.3s; }
+    nav a:hover { transform: scale(1.05); background: #e6f3ff; }
 
-    .section { padding: 3rem 1.5rem; max-width: 1000px; margin: auto; animation: fadeIn 1.2s ease; }
-    .section h2 { color: #f12711; margin-bottom: 1rem; }
+    .section { padding: 3rem 1.5rem; max-width: 1000px; margin: auto; animation: fadeIn 1.2s ease-in-out; }
+    .section h2 { color: #0072ff; margin-bottom: 1rem; font-size: 1.7rem; }
     .modules { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; }
-    .card { background: white; padding: 1rem; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); transition: transform 0.3s, box-shadow 0.3s; }
-    .card:hover { transform: translateY(-5px); box-shadow: 0 8px 20px rgba(0,0,0,0.1); }
+    .card { background: white; padding: 1.2rem; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.06); transition: all 0.3s; }
+    .card:hover { transform: translateY(-6px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
 
-    .cta { background: #f12711; color: white; padding: 2rem 1rem; text-align: center; border-radius: 12px; margin-top: 3rem; }
-    .cta a { background: white; color: #f12711; padding: 0.75rem 1.5rem; margin-top: 1rem; display: inline-block; border-radius: 8px; text-decoration: none; transition: background 0.3s; }
-    .cta a:hover { background: #fff0e0; }
+    .cta { background: #0072ff; color: white; padding: 2.5rem 1rem; text-align: center; border-radius: 12px; margin-top: 3rem; }
+    .cta a { background: white; color: #0072ff; padding: 0.75rem 1.5rem; margin-top: 1rem; display: inline-block; border-radius: 8px; text-decoration: none; transition: background 0.3s ease; }
+    .cta a:hover { background: #cce6ff; }
 
-    footer { text-align: center; padding: 2rem 1rem; font-size: 0.9rem; color: #777; }
+    footer { text-align: center; padding: 2rem 1rem; font-size: 0.9rem; color: #666; }
 
-    @keyframes fadeInDown {
-      from { opacity: 0; transform: translateY(-20px); }
-      to { opacity: 1; transform: translateY(0); }
+    @keyframes slideDown {
+      from { transform: translateY(-30px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
     }
 
-    @keyframes fadeInUp {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
+    @keyframes slideUp {
+      from { transform: translateY(30px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
     }
 
     @keyframes fadeIn {
@@ -53,8 +54,8 @@
 <body>
 
   <header>
-    <h1>Angular Hands On Course in Mumbai</h1>
-    <p>Build dynamic web apps with expert guidance and real-world projects at Just Academy</p>
+    <h1>Manual Testing Hands On Course in Mumbai</h1>
+    <p>Master Software Testing with real-world projects and expert trainers</p>
     <nav>
       <a href="https://www.justacademy.co/">Explore Courses</a>
       <a href="https://www.justacademy.co/student-placed">Placement Assistance</a>
@@ -63,28 +64,26 @@
   </header>
 
   <section class="section">
-    <h2>What You Will Learn</h2>
+    <h2>What You'll Learn in Manual Testing</h2>
     <div class="modules">
-      <div class="card">Introduction to Angular</div>
-      <div class="card">TypeScript Basics</div>
-      <div class="card">Components and Modules</div>
-      <div class="card">Templates and Data Binding</div>
-      <div class="card">Directives and Pipes</div>
-      <div class="card">Routing and Navigation</div>
-      <div class="card">Forms in Angular</div>
-      <div class="card">Services and Dependency Injection</div>
-      <div class="card">HTTP and Observables</div>
-      <div class="card">Authentication and Authorization</div>
-      <div class="card">Testing Angular Applications</div>
-      <div class="card">Deploying Angular Apps</div>
+      <div class="card">Introduction to Software Testing</div>
+      <div class="card">Software Development Life Cycle (SDLC)</div>
+      <div class="card">Software Testing Life Cycle (STLC)</div>
+      <div class="card">Test Plan & Test Cases</div>
+      <div class="card">Defect Life Cycle</div>
+      <div class="card">Types of Testing (Smoke, Sanity, Regression)</div>
+      <div class="card">Agile Methodology</div>
+      <div class="card">Bug Tracking Tools (JIRA)</div>
+      <div class="card">Real-time Project Practice</div>
+      <div class="card">Interview Preparation</div>
     </div>
   </section>
 
   <section class="section cta">
-    <h2>Ready to get hands-on?</h2>
-    <p>Start your Angular journey with interactive learning and personalized guidance.</p>
-    <a href="https://www.justacademy.co/register-for-course-demo">Book a Free Demo Session</a>
-    <a href="https://www.justacademy.co/student-placed">Placement Support</a>
+    <h2>Start Your Hands On Testing Journey</h2>
+    <p>Learn testing from scratch with live practice, mentorship & career guidance.</p>
+    <a href="https://www.justacademy.co/register-for-course-demo">Book Free Demo Session</a>
+    <a href="https://www.justacademy.co/student-placed">See Our Student Placements</a>
   </section>
 
   <footer>
